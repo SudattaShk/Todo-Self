@@ -117,7 +117,7 @@ h1{
 .todo-list-item p{
   font-size: 14px;
   color: rgb(161, 161, 161);
-  margin-top: 0px;
+  margin-top: 8px;
 }
 .icon{
   font-size: 35px;
@@ -138,4 +138,32 @@ h1{
 
 .check-icon:hover{
   color: rgb(4, 196, 106);
+}
+
+.edit__wrapper{
+  background-color: #414040;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.edit__wrapper input,.edit__wrapper textarea{
+  border: 1px solid lightgray;
+  padding:10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+
+.edit__wrapper .primaryBtn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 15px;
+  width:fit-content;
+}
+
+.h4{
+  color: red;
 }
